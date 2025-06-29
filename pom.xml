@@ -178,6 +178,8 @@
           --add-exports java.desktop/com.sun.imageio.plugins.jpeg=ALL-UNNAMED
           --add-exports java.desktop/com.sun.imageio.plugins.png=ALL-UNNAMED
         </surefire.jvm.args>
+          <maven.compiler.source>17</maven.compiler.source>
+          <maven.compiler.target>17</maven.compiler.target>
       </properties>
     </profile>
   </profiles>
