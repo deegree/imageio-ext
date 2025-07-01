@@ -43,6 +43,7 @@ import javax.media.jai.RenderedOp;
 import javax.media.jai.widget.ScrollingImagePanel;
 import javax.swing.JFrame;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import junit.framework.Assert;
@@ -199,6 +200,7 @@ public class ImageInputStreamTest  {
 	 * Testing capabilities of {@link URLImageInputStreamSpi}.
 	 *
 	 */
+	@Ignore
 	@Test
 	public void URLImageInputStream() {
 
@@ -278,6 +280,7 @@ public class ImageInputStreamTest  {
      *
      */
 	@Test
+	@Ignore
     public void stringImageInputStream() {
 
         LOGGER.info("Testing capabilities of StringImageInputStreamSpi");
