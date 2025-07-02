@@ -5,11 +5,11 @@
                                http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>it.geosolutions.imageio-ext</groupId>
+    <groupId>org.deegree</groupId>
     <artifactId>imageio-ext</artifactId>
     <version>1.4-SNAPSHOT</version>
   </parent>
-  <groupId>it.geosolutions.imageio-ext</groupId>
+  <groupId>org.deegree</groupId>
   <artifactId>imageio-ext-library</artifactId>
   <version>1.4-SNAPSHOT</version>
   <packaging>pom</packaging>

@@ -4,7 +4,7 @@
     <artifactId>imageio-ext-cog-reader</artifactId>
 
     <parent>
-        <groupId>it.geosolutions.imageio-ext</groupId>
+        <groupId>org.deegree</groupId>
         <artifactId>imageio-ext-cog</artifactId>
         <version>1.4-SNAPSHOT</version>
     </parent>
@@ -13,15 +13,15 @@
 
     <dependencies>
         <dependency>
-            <groupId>it.geosolutions.imageio-ext</groupId>
+            <groupId>org.deegree</groupId>
             <artifactId>imageio-ext-tiff</artifactId>
         </dependency>
         <dependency>
-            <groupId>it.geosolutions.imageio-ext</groupId>
+            <groupId>org.deegree</groupId>
             <artifactId>imageio-ext-cog-commons</artifactId>
         </dependency>
         <dependency>
-            <groupId>it.geosolutions.imageio-ext</groupId>
+            <groupId>org.deegree</groupId>
             <artifactId>imageio-ext-cog-streams</artifactId>
         </dependency>
     </dependencies>
@@ -35,22 +35,22 @@
             </properties>
             <dependencies>
                 <dependency>
-                    <groupId>it.geosolutions.imageio-ext</groupId>
+                    <groupId>org.deegree</groupId>
                     <artifactId>imageio-ext-cog-rangereader-http</artifactId>
                     <scope>test</scope>
                 </dependency>
                 <dependency>
-                    <groupId>it.geosolutions.imageio-ext</groupId>
+                    <groupId>org.deegree</groupId>
                     <artifactId>imageio-ext-cog-rangereader-s3</artifactId>
                     <scope>test</scope>
                 </dependency>
                 <dependency>
-                    <groupId>it.geosolutions.imageio-ext</groupId>
+                    <groupId>org.deegree</groupId>
                     <artifactId>imageio-ext-cog-rangereader-gs</artifactId>
                     <scope>test</scope>
                 </dependency>
                 <dependency>
-                    <groupId>it.geosolutions.imageio-ext</groupId>
+                    <groupId>org.deegree</groupId>
                     <artifactId>imageio-ext-cog-rangereader-azure</artifactId>
                     <scope>test</scope>
                 </dependency>
@@ -64,7 +64,7 @@
             </properties>
             <dependencies>
                 <dependency>
-                    <groupId>it.geosolutions.imageio-ext</groupId>
+                    <groupId>org.deegree</groupId>
                     <artifactId>imageio-ext-cog-rangereader-http</artifactId>
                     <scope>test</scope>
                 </dependency>
@@ -78,7 +78,7 @@
             </properties>
             <dependencies>
                 <dependency>
-                    <groupId>it.geosolutions.imageio-ext</groupId>
+                    <groupId>org.deegree</groupId>
                     <artifactId>imageio-ext-cog-rangereader-s3</artifactId>
                     <scope>test</scope>
                 </dependency>
@@ -92,7 +92,7 @@
             </properties>
             <dependencies>
                 <dependency>
-                    <groupId>it.geosolutions.imageio-ext</groupId>
+                    <groupId>org.deegree</groupId>
                     <artifactId>imageio-ext-cog-rangereader-azure</artifactId>
                     <scope>test</scope>
                 </dependency>
@@ -109,22 +109,22 @@
             </properties>
             <dependencies>
                 <dependency>
-                    <groupId>it.geosolutions.imageio-ext</groupId>
+                    <groupId>org.deegree</groupId>
                     <artifactId>imageio-ext-cog-rangereader-http</artifactId>
                     <scope>test</scope>
                 </dependency>
                 <dependency>
-                    <groupId>it.geosolutions.imageio-ext</groupId>
+                    <groupId>org.deegree</groupId>
                     <artifactId>imageio-ext-cog-rangereader-s3</artifactId>
                     <scope>test</scope>
                 </dependency>
                 <dependency>
-                    <groupId>it.geosolutions.imageio-ext</groupId>
+                    <groupId>org.deegree</groupId>
                     <artifactId>imageio-ext-cog-rangereader-gs</artifactId>
                     <scope>test</scope>
                 </dependency>
                 <dependency>
-                    <groupId>it.geosolutions.imageio-ext</groupId>
+                    <groupId>org.deegree</groupId>
                     <artifactId>imageio-ext-cog-rangereader-azure</artifactId>
                     <scope>test</scope>
                 </dependency>

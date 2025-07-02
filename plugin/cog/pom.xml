@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>imageio-ext-plugin</artifactId>
-        <groupId>it.geosolutions.imageio-ext</groupId>
+        <groupId>org.deegree</groupId>
         <version>1.4-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -34,37 +34,37 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>it.geosolutions.imageio-ext</groupId>
+                <groupId>org.deegree</groupId>
                 <artifactId>imageio-ext-tiff</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>it.geosolutions.imageio-ext</groupId>
+                <groupId>org.deegree</groupId>
                 <artifactId>imageio-ext-cog-commons</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>it.geosolutions.imageio-ext</groupId>
+                <groupId>org.deegree</groupId>
                 <artifactId>imageio-ext-cog-rangereader-http</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>it.geosolutions.imageio-ext</groupId>
+                <groupId>org.deegree</groupId>
                 <artifactId>imageio-ext-cog-rangereader-s3</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>it.geosolutions.imageio-ext</groupId>
+                <groupId>org.deegree</groupId>
                 <artifactId>imageio-ext-cog-rangereader-gs</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>it.geosolutions.imageio-ext</groupId>
+                <groupId>org.deegree</groupId>
                 <artifactId>imageio-ext-cog-rangereader-azure</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
-                <groupId>it.geosolutions.imageio-ext</groupId>
+                <groupId>org.deegree</groupId>
                 <artifactId>imageio-ext-cog-streams</artifactId>
                 <version>${project.version}</version>
             </dependency>

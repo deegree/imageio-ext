@@ -4,11 +4,11 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>it.geosolutions.imageio-ext</groupId>
+		<groupId>org.deegree</groupId>
 		<artifactId>imageio-ext-plugin</artifactId>
 		<version>1.4-SNAPSHOT</version>
 	</parent>
-	<groupId>it.geosolutions.imageio-ext</groupId>
+	<groupId>org.deegree</groupId>
 	<artifactId>imageio-ext-png</artifactId>
 	<version>1.4-SNAPSHOT</version>
 	<name>imageio-ext-png</name>
@@ -29,13 +29,13 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>it.geosolutions.imageio-ext</groupId>
+			<groupId>org.deegree</groupId>
 			<artifactId>imageio-ext-test-data</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>it.geosolutions.imageio-ext</groupId>
+			<groupId>org.deegree</groupId>
 			<artifactId>imageio-ext-streams</artifactId>
 			<version>${project.version}</version>
 			<scope>test</scope>

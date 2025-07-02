@@ -4,7 +4,7 @@
     <artifactId>imageio-ext-cog-streams</artifactId>
 
     <parent>
-        <groupId>it.geosolutions.imageio-ext</groupId>
+        <groupId>org.deegree</groupId>
         <artifactId>imageio-ext-cog</artifactId>
         <version>1.4-SNAPSHOT</version>
     </parent>
@@ -13,7 +13,7 @@
 
     <dependencies>
         <dependency>
-            <groupId>it.geosolutions.imageio-ext</groupId>
+            <groupId>org.deegree</groupId>
             <artifactId>imageio-ext-cog-commons</artifactId>
         </dependency>
         <dependency>

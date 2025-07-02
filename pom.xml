@@ -26,7 +26,7 @@
   <!-- ======================================================== -->
   <!--                    Project Description                   -->
   <!-- ======================================================== -->
-  <groupId>it.geosolutions.imageio-ext</groupId>
+  <groupId>org.deegree</groupId>
   <artifactId>imageio-ext</artifactId>
   <packaging>pom</packaging>
   <version>1.4-SNAPSHOT</version>
@@ -440,7 +440,7 @@
         <version>${gdal.version}</version>
       </dependency>
       <!--dependency>
-       <groupId>it.geosolutions.imageio-ext</groupId>
+       <groupId>org.deegree</groupId>
        <artifactId>imageio-ext-gdal-bindings</artifactId>
        <version>${gdal.version}</version>
      </dependency-->
@@ -450,27 +450,27 @@
        <version>${kakadu.version}</version>
      </dependency>
      <dependency>
-       <groupId>it.geosolutions.imageio-ext</groupId>
+       <groupId>org.deegree</groupId>
        <artifactId>imageio-ext-kakadu</artifactId>
        <version>${project.version}</version>
      </dependency>
      <dependency>
-       <groupId>it.geosolutions.imageio-ext</groupId>
+       <groupId>org.deegree</groupId>
        <artifactId>imageio-ext-test-data</artifactId>
        <version>${project.version}</version>
      </dependency>
      <dependency>
-      <groupId>it.geosolutions.imageio-ext</groupId>
+      <groupId>org.deegree</groupId>
       <artifactId>imageio-ext-streams</artifactId>
       <version>${project.version}</version>
      </dependency>
      <dependency>
-      <groupId>it.geosolutions.imageio-ext</groupId>
+      <groupId>org.deegree</groupId>
       <artifactId>imageio-ext-imagereadmt</artifactId>
       <version>${project.version}</version>
      </dependency>
      <dependency>
-      <groupId>it.geosolutions.imageio-ext</groupId>
+      <groupId>org.deegree</groupId>
       <artifactId>imageio-ext-utilities</artifactId>
       <version>${project.version}</version>
      </dependency>

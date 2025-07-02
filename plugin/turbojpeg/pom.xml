@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
         
     <parent>
-        <groupId>it.geosolutions.imageio-ext</groupId>
+        <groupId>org.deegree</groupId>
         <artifactId>imageio-ext-plugin</artifactId>
         <version>1.4-SNAPSHOT</version>
     </parent>
         
-    <groupId>it.geosolutions.imageio-ext</groupId>
+    <groupId>org.deegree</groupId>
     <artifactId>imageio-ext-turbojpeg</artifactId>
     <version>1.4-SNAPSHOT</version>
 
@@ -19,20 +19,20 @@
 
     <dependencies>
         <dependency>
-            <groupId>it.geosolutions.imageio-ext</groupId>
+            <groupId>org.deegree</groupId>
             <artifactId>imageio-ext-streams</artifactId>
         </dependency>
         <dependency>
-            <groupId>it.geosolutions.imageio-ext</groupId>
+            <groupId>org.deegree</groupId>
             <artifactId>imageio-ext-imagereadmt</artifactId>
         </dependency>
         <dependency>
-            <groupId>it.geosolutions.imageio-ext</groupId>
+            <groupId>org.deegree</groupId>
             <artifactId>imageio-ext-test-data</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>it.geosolutions.imageio-ext</groupId>
+            <groupId>org.deegree</groupId>
             <artifactId>imageio-ext-utilities</artifactId>
         </dependency>
                 

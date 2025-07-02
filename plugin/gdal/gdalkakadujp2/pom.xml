@@ -12,12 +12,12 @@
      </properties>
    </profile>
   </profiles>
-  <groupId>it.geosolutions.imageio-ext</groupId>
+  <groupId>org.deegree</groupId>
   <artifactId>imageio-ext-gdalkakadujp2</artifactId>
   <packaging>jar</packaging>
   <version>1.4-SNAPSHOT</version>
   <parent>
-    <groupId>it.geosolutions.imageio-ext</groupId>
+    <groupId>org.deegree</groupId>
     <artifactId>imageio-ext-gdal-plugin</artifactId>
     <version>1.4-SNAPSHOT</version>
   </parent>
